@@ -1,0 +1,161 @@
+* {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+
+}
+
+.header {
+    
+    height: 50;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+}
+
+.logo {
+    justify-content: flex-start;
+    margin: 10px;
+}
+.navigation {
+    display: flex;
+    margin: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+li {
+    text-decoration: underline;
+    margin-left:20px;
+    
+ }
+
+
+ /* First Banner Section*/
+.banner {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    opacity: 0.9;
+    background-image: url("./media/img-mission-background.jpeg");
+    display: flex;
+    align-items: center;
+    
+}
+
+.banner-label {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    
+}
+
+h2, h4 {
+    margin: 15px;
+}
+ h2 {
+    font-size: 28px;
+    font-weight: bold;
+ }
+
+ /*Tea Highlights */
+ .main-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+ }
+.main-section{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .highlight-title {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+ }
+
+ .highlight-imgages{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    align-content: center;
+    
+ }
+
+ .image-box{
+    
+    display: flex;
+    flex-direction: column;
+    
+ }
+ .image-box img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+ }
+
+ /* Location Section*/
+
+ .locations {
+    background-image: url("media/img-locations-background.webp");
+    height: 500px;
+ }
+
+ .location-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    
+ }
+
+ .location-box {
+    margin:20px;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+ .location-title {
+    background-color: transparent;
+ }
+ .location-title h2{
+    background-color: transparent;
+    margin-bottom: 15px;
+    margin-top: 60px;
+ }
+
+ h4 {
+    
+    font-weight: lighter;
+ }
+
+ h3 {
+    font-weight: bold;
+ }
+
+ /*Footer*/
+
+ .footer {
+    height: 200px;
+ }
+ .copyright {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+ }
